@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(56, 22, 22) 100%);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 25px 0;
+}
+
+#logo {
+    width: auto;
+    height: 45px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 600px;
+    gap: 20px;
+}
+
+.text-box h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.text-box p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.email-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+input[type=email] {
+    width: 350px;
+    height: 50px;
+    background-color: rgba(17, 17, 17, 0.75);
+    border: 2px solid #5e5e5e;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+}
+
+input[type=email]::placeholder {
+    color: #8c8c8c;
+}
+
+#buttons {
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#buttons:hover {
+    background-color: #f6121d;
+}
+
+span {
+    color: #b3b3b3;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.9);
+    color: #737373;
+    padding: 40px 10%;
+    font-size: 13px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    margin-bottom: 20px;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer a {
+    color: #737373;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

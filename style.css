@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,1)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/f0b42cac-9ced-425f-8677-777eadbdbe2f/web/KZ-ru-20261005-TRIFECTA-perspective_da75b8c7-a0cd-42fa-bdb6-8d767de9423c_large.jpg");
+    min-height: 100vmin;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+main{
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 25px 0;
+}
+
+#header-button{
+    display: flex;
+    gap: 15px;
+} 
+
+.language-box{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 14px;
+    background-color: #111;
+    color: white;
+    border: 2px solid #5e5e5e;
+    border-radius: 10px;
+}
+
+.language-box select{
+    background-color: #111;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+#button-login{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#button-watch{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#logo{
+    width: auto;
+    height: 45px;
+}
+
+.text-box{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 40px;
+    max-width: 570px;
+    gap: 30px;
+}
+
+.text-box h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.text-box h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.text-box p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.email-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:35px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+input[type=email]{
+    width: 350px;
+    height: 50px;
+    background-color: #11111171;
+    border: 2px solid #5e5e5e;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
